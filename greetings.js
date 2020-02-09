@@ -8,7 +8,7 @@ const SHOWING_CN = "showing";
 function showingGreetings(text) {
   nameForm.classList.remove(SHOWING_CN);
   greetingText.classList.add(SHOWING_CN);
-  greetingText.innerText = `Hello, ${text}!`;
+  greetingText.innerText = `Good Day, ${text}!`;
 }
 
 function saveName(text) {
